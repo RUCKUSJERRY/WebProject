@@ -1,8 +1,78 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <meta charset="UTF-8">
-        <title>Insert title here</title>
+        <title>Verser</title>
+
+        <style type="text/css">
+        
+        * {
+            margin : 0;
+            padding: 0;
+        }
+
+        div {
+            border : 1px solid red;
+        }
+
+        .area {
+            position: relative;
+            width: 100%;
+            height: 3000px;
+        }
+
+        .leftsidenav {
+            position: fixed;
+            width: 15%;
+            height: 100%;
+        }
+
+        .main_container {
+            position: relative;
+            margin: 0 auto;
+            width: 70%;
+            height: 100%;
+            
+        }
+
+        .logo_area {
+            position: fixed;
+            width: 70%;
+            height: 15%;
+        }
+        
+        .text_area {
+            position: relative;
+            top: 140px;
+            left: 4px;
+            height: 50%;
+        }
+        
+        </style>
+
+
     </head>
-    <body></body>
+    <body>
+
+        <div class="area">
+            <div class="leftsidenav">
+                메뉴 리스팅
+            </div>
+            
+            <div class="main_container">
+                <div class="logo_area">
+                    로고 이미지
+                </div>
+                <div class="text_area">
+                    가사 작성란
+                </div>
+            </div>
+        </div>
+
+
+
+    </body>
 </html>
